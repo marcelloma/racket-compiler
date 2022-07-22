@@ -18,10 +18,6 @@
 int main(int argc, char** argv) {
   int val = entry();
 
-  printf("%d\n", val);
-  printf("%d\n", val & CHAR_MASK);
-  printf("%d\n", val >> CHAR_SHIFT);
-
   if ((val & BOOLEAN_MASK) == BOOLEAN_TAG) {
     printf("Boolean: %s\n", (val >> BOOLEAN_SHIFT) ? "true" : "false");
   } else if ((val & CHAR_MASK) == CHAR_TAG) {
