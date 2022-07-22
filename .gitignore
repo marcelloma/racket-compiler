@@ -1,2 +1,3 @@
 *.s
 driver
+test.c

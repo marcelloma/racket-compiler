@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
   } else if ((val & FIXNUM_MASK) == FIXNUM_TAG) {
     printf("Fixnum: %d\n", val >> FIXNUM_SHIFT);
   } else if (val == EMPTY_LIST) {
-    printf("EmptyList: ()\n");
+    printf("Null\n");
   }
 
   return 0;
