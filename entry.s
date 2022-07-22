@@ -1,5 +1,5 @@
 .text
 .globl _entry, @function
 _entry:
-mov $420, %eax
+mov $17167, %eax
 ret
